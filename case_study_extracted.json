@@ -1,0 +1,122 @@
+{
+  "text_content": [
+    {
+      "page": 1,
+      "text": "VIT CAMPUS CONNECT\nCYBER SIMULATION EXERCISE – Automating File Cleansing and\nAnalysis leveraging AI\nSeptember 5, 2025"
+    },
+    {
+      "page": 2,
+      "text": "Automating File Cleansing\nand Analysis"
+    },
+    {
+      "page": 3,
+      "text": "Introduction To Case Study\nAutomating File Cleansing and Analysis\nBackground\nSecurity Consultants often receive client data in various formats, including spreadsheets, text files, PDFs, images (such as scanned\ndocuments or screenshots), and presentations. These files usually contain client-specific details or sensitive information that must be\ncleansed before they can be used for analysis.\nProblem Statement\nThe challenge is to design an automated solution that can:\n• Cleanse files by removing or masking client logos, names, and any Personally Identifiable Information (PII)* so that files cannot\nbe traced back to the client\n• Pre-process diverse file formats into a consistent, usable structure\n• Analyse the processed data to extract and generate meaningful insights for the Security Consultants\nThis ensures consultants can work with clean, standardized, and anonymized data without exposing sensitive client information.\nNote: A zipped file with diverse file formats would be provided for reference and testing the prototype\n*PII refers to any information that can be used to directly or indirectly identify an individual such as name, address, contact details, Social Security Number\n(SSN) or any other government-issued identification numbers."
+    },
+    {
+      "page": 4,
+      "text": "Expected Outcomes\nOutput Deliverables\nSolution Design Walkthrough*\nWalkthrough of the application functional design, highlighting:\n• Files cleansing workflow – Removing or masking sensitive client information (e.g., client name, client logo, PII).\n• File analysis workflow – Automating the reading and analysis of files to extract useful information for further evaluation.\nThis includes but is not limited to:\n• Text extraction: Applying OCR and other relevant parsing methods to read text from images, diagrams, Tables,\nPowerPoint slides and scanned pdf files (.jpeg, .png, .pptx, .xlsx, .pdf)\n• Content interpretation: Identifying key data elements within the extracted text, such as IAM policy statements,\nfirewall rule entries, or IDS/IPS log snippets\n• Preparation for evaluation: Generating cleansed and readable text in a standardized format (please populate\nthe outcome in the table within shared PowerPoint template)\nA working prototype:\n• A simple UI that allows users to upload files for cleansing and automated analysis\n• If UI development is not feasible due to time constraints, demonstrate the backend functionality using an IDE (Integrated\nDevelopment Environment) of your choice (e.g., Jupyter Notebook, PyCharm, etc.)\n*Students are required to leverage the provided PowerPoint Template file to present their solution"
+    },
+    {
+      "page": 5,
+      "text": "Sample Functional Design Diagram\nIllustrative Purpose Only: The diagram below is for reference and not specific to the case study.\nForgery Detection\nAgent"
+    },
+    {
+      "page": 6,
+      "text": "Thank you"
+    }
+  ],
+  "tables": [],
+  "metadata": {
+    "Author": "Srishti Ahuja",
+    "ContentTypeId": "0x010100D7428BFF0AD25F428DB172A579BD886C",
+    "CreationDate": "D:20250905190435+05'30'",
+    "Creator": "Acrobat PDFMaker 25 for PowerPoint",
+    "ModDate": "D:20250905190437+05'30'",
+    "Producer": "Adobe PDF Library 25.1.97",
+    "Title": "Welcome to Optiv!"
+  },
+  "images": [
+    {
+      "page": 1,
+      "image_number": 1,
+      "bbox": [],
+      "x0": 7.87e-05,
+      "y0": -0.1120251,
+      "x1": 523.7812829000001,
+      "y1": 405.0
+    },
+    {
+      "page": 1,
+      "image_number": 2,
+      "bbox": [],
+      "x0": 689.1707153,
+      "y0": 50.3185456,
+      "x1": 693.750457,
+      "y1": 54.8914185
+    },
+    {
+      "page": 2,
+      "image_number": 1,
+      "bbox": [],
+      "x0": 690.7059326,
+      "y0": 46.4884758,
+      "x1": 693.5418926,
+      "y1": 49.320179
+    },
+    {
+      "page": 3,
+      "image_number": 1,
+      "bbox": [],
+      "x0": 64.7591095,
+      "y0": 14.6710576,
+      "x1": 66.51467679999999,
+      "y1": 16.4239921
+    },
+    {
+      "page": 4,
+      "image_number": 1,
+      "bbox": [],
+      "x0": 64.7591095,
+      "y0": 14.6710576,
+      "x1": 66.51467679999999,
+      "y1": 16.4239921
+    },
+    {
+      "page": 5,
+      "image_number": 1,
+      "bbox": [],
+      "x0": 64.7591095,
+      "y0": 14.6710576,
+      "x1": 66.51467679999999,
+      "y1": 16.4239921
+    },
+    {
+      "page": 5,
+      "image_number": 2,
+      "bbox": [],
+      "x0": 66.7089691,
+      "y0": 35.4006692,
+      "x1": 653.2907941999999,
+      "y1": 324.3125305
+    },
+    {
+      "page": 6,
+      "image_number": 1,
+      "bbox": [],
+      "x0": 64.7591095,
+      "y0": 14.6710576,
+      "x1": 66.51467679999999,
+      "y1": 16.4239921
+    },
+    {
+      "page": 6,
+      "image_number": 2,
+      "bbox": [],
+      "x0": 689.1707153,
+      "y0": 50.3185456,
+      "x1": 693.750457,
+      "y1": 54.8914185
+    }
+  ],
+  "page_count": 6
+}

@@ -1,0 +1,187 @@
+{
+  "templates": {
+    "content_categories": {
+      "technical_documentation": {
+        "description_template": "Technical documentation containing {key_terms} and {entity_count} technical references",
+        "findings_templates": [
+          "Contains technical specifications requiring security review",
+          "May include system configuration details needing protection",
+          "Technical content with {entity_count} system references"
+        ],
+        "recommendations_templates": [
+          "Apply technical data governance policies",
+          "Implement system configuration security controls",
+          "Enable technical content monitoring"
+        ],
+        "risk_factors": ["technical_exposure", "system_configuration"]
+      },
+      "business_communication": {
+        "description_template": "Business communication document with {key_terms} and organizational context",
+        "findings_templates": [
+          "Contains business information requiring data governance",
+          "Organizational content with {entity_count} business references",
+          "Business communication requiring access controls"
+        ],
+        "recommendations_templates": [
+          "Apply business data governance policies",
+          "Implement organizational access controls",
+          "Enable business content monitoring"
+        ],
+        "risk_factors": ["business_exposure", "organizational_data"]
+      },
+      "personal_information": {
+        "description_template": "Document containing personal information with {entity_count} individual references",
+        "findings_templates": [
+          "Contains personal information requiring privacy protection",
+          "Individual data with {entity_count} person references",
+          "Personal content requiring data protection controls"
+        ],
+        "recommendations_templates": [
+          "Implement data masking for personal identifiers",
+          "Apply privacy protection controls",
+          "Enable personal data monitoring"
+        ],
+        "risk_factors": ["privacy_exposure", "personal_data"]
+      },
+      "financial_data": {
+        "description_template": "Financial document with monetary information and {entity_count} financial references",
+        "findings_templates": [
+          "Contains financial information requiring accounting controls",
+          "Monetary data with {entity_count} financial references",
+          "Financial content requiring compliance controls"
+        ],
+        "recommendations_templates": [
+          "Apply financial data governance policies",
+          "Implement accounting compliance controls",
+          "Enable financial monitoring"
+        ],
+        "risk_factors": ["financial_exposure", "monetary_data"]
+      },
+      "security_information": {
+        "description_template": "Security-related document with {key_terms} and security context",
+        "findings_templates": [
+          "Contains security information requiring access controls",
+          "Security content with {entity_count} security references",
+          "Security information requiring enhanced protection"
+        ],
+        "recommendations_templates": [
+          "Apply enhanced security controls",
+          "Implement security monitoring",
+          "Enable security access controls"
+        ],
+        "risk_factors": ["security_exposure", "access_control"]
+      },
+      "unknown_content": {
+        "description_template": "Document with {key_terms} requiring manual analysis and classification",
+        "findings_templates": [
+          "Content type not automatically classified",
+          "Requires manual review for proper categorization",
+          "May contain sensitive information requiring analysis"
+        ],
+        "recommendations_templates": [
+          "Conduct manual content analysis",
+          "Apply general data governance policies",
+          "Implement standard access controls"
+        ],
+        "risk_factors": ["unknown_content", "manual_review_required"]
+      }
+    },
+    "content_purposes": {
+      "operational_procedure": {
+        "description_template": "Operational procedure document outlining {key_terms} processes",
+        "findings_templates": [
+          "Contains operational procedures requiring process controls",
+          "Procedure documentation with {entity_count} operational references",
+          "Operational content requiring workflow controls"
+        ],
+        "recommendations_templates": [
+          "Implement process governance controls",
+          "Apply operational monitoring",
+          "Enable procedure access controls"
+        ],
+        "risk_factors": ["process_exposure", "operational_data"]
+      },
+      "analytical_report": {
+        "description_template": "Analytical report containing {key_terms} and analytical findings",
+        "findings_templates": [
+          "Contains analytical information requiring data controls",
+          "Report content with {entity_count} analytical references",
+          "Analytical data requiring research controls"
+        ],
+        "recommendations_templates": [
+          "Apply analytical data governance",
+          "Implement research monitoring",
+          "Enable analytical access controls"
+        ],
+        "risk_factors": ["analytical_exposure", "research_data"]
+      },
+      "system_configuration": {
+        "description_template": "System configuration document with {key_terms} and technical parameters",
+        "findings_templates": [
+          "Contains system configuration requiring technical controls",
+          "Configuration data with {entity_count} system references",
+          "System settings requiring configuration controls"
+        ],
+        "recommendations_templates": [
+          "Apply system configuration security",
+          "Implement technical monitoring",
+          "Enable configuration access controls"
+        ],
+        "risk_factors": ["configuration_exposure", "system_data"]
+      },
+      "policy_documentation": {
+        "description_template": "Policy document outlining {key_terms} and compliance requirements",
+        "findings_templates": [
+          "Contains policy information requiring compliance controls",
+          "Policy content with {entity_count} compliance references",
+          "Policy documentation requiring governance controls"
+        ],
+        "recommendations_templates": [
+          "Apply policy governance controls",
+          "Implement compliance monitoring",
+          "Enable policy access controls"
+        ],
+        "risk_factors": ["policy_exposure", "compliance_data"]
+      }
+    },
+    "sensitive_patterns": {
+      "confidential_marking": {
+        "description_addition": "marked as confidential or proprietary",
+        "findings_addition": "Contains confidential markings requiring restricted access",
+        "recommendations_addition": "Implement confidential data controls and restricted access",
+        "risk_factor": "confidential_content"
+      },
+      "classification_marking": {
+        "description_addition": "classified or restricted content",
+        "findings_addition": "Contains classification markings requiring security controls",
+        "recommendations_addition": "Apply classification-based access controls",
+        "risk_factor": "classified_content"
+      },
+      "privacy_marking": {
+        "description_addition": "personal or private information",
+        "findings_addition": "Contains privacy markings requiring data protection",
+        "recommendations_addition": "Implement privacy protection controls",
+        "risk_factor": "privacy_content"
+      }
+    }
+  },
+  "patterns": {
+    "entity_thresholds": {
+      "high_volume_person": 5,
+      "high_volume_org": 3,
+      "high_volume_location": 2
+    },
+    "confidence_factors": {
+      "entity_richness": 0.2,
+      "sentiment_clarity": 0.1,
+      "text_complexity": 0.1
+    },
+    "risk_scoring": {
+      "high_volume_personal": 2,
+      "confidential_content": 3,
+      "credential_content": 3,
+      "financial_content": 2,
+      "default_risk": 1
+    }
+  }
+}

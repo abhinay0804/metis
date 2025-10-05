@@ -1,0 +1,34 @@
+{
+  "file_name": "File_007.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T18:07:21.307593+00:00",
+  "result": {
+    "dataQuality": 55,
+    "sensitiveFields": 0,
+    "compliance": [
+      "ISO 27001"
+    ],
+    "recommendations": [
+      "Review and validate access control configurations"
+    ],
+    "riskLevel": "Low",
+    "description": "Access Card Reader. A person is holding an access card against a card reader mounted near a door. The card reader has a light indicator.",
+    "keyFindings": [
+      "Digital access control system using ID/employee cards.",
+      "Automates entry tracking by time-stamping when the card is swiped.",
+      "Dependent on card validity and system integrity (e.g., cards can be lost or borrowed).",
+      "Contains access control system documentation requiring security review",
+      "May include authentication mechanisms or security procedures requiring protection"
+    ],
+    "contentCategories": [
+      "access_control",
+      "infrastructure"
+    ],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "word_count": 49
+    },
+    "sampleFormat": true
+  }
+}

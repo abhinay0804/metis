@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optiv Metis Design System - Professional Security Platform */
+
+@layer base {
+  :root {
+    /* Modern Professional Base Colors */
+    --background: 240 10% 98%;
+    --foreground: 224 71% 4%;
+
+    /* Card & Surface Colors */
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 4%;
+
+    /* Primary - Professional Deep Blue */
+    --primary: 217 91% 35%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary - Elegant Gray Blue */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 9% 46%;
+
+    /* Muted Tones - Refined Grays */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    /* Accent - Vibrant Security Blue */
+    --accent: 212 100% 48%;
+    --accent-foreground: 0 0% 98%;
+
+    /* Status Colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 224 71% 4%;
+
+    /* Interface Elements */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 35%;
+
+    --radius: 0.75rem;
+
+    /* Security Platform Brand Colors */
+    --security-primary: 217 91% 35%;
+    --security-accent: 142 76% 36%;
+    --data-mask: 271 91% 65%;
+    --data-analysis: 217 91% 60%;
+
+    /* Professional Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 35%), hsl(212 100% 48%));
+    --gradient-security: linear-gradient(135deg, hsl(142 76% 36%), hsl(160 84% 39%));
+    --gradient-data: linear-gradient(135deg, hsl(271 91% 65%), hsl(262 83% 58%));
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 35%) 0%, hsl(212 100% 48%) 50%, hsl(271 91% 65%) 100%);
+
+    /* Enhanced Shadows */
+    --shadow-soft: 0 1px 3px 0 hsl(220 13% 91% / 0.5);
+    --shadow-medium: 0 4px 6px -1px hsl(220 13% 91% / 0.5), 0 2px 4px -1px hsl(220 13% 91% / 0.3);
+    --shadow-large: 0 10px 15px -3px hsl(220 13% 91% / 0.4), 0 4px 6px -2px hsl(220 13% 91% / 0.2);
+    --shadow-glow: 0 0 20px hsl(217 91% 35% / 0.3);
+
+    /* Smooth Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s ease-out;
+
+    /* Sidebar Colors */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 9% 46%;
+    --sidebar-primary: 217 91% 35%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 220 9% 46%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217 91% 35%;
+
+  }
+
+  .dark {
+    /* Dark Mode - Sophisticated Dark Blue Theme */
+    --background: 222 84% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 212 100% 48%;
+    --primary-foreground: 222 84% 5%;
+
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 32% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 222 84% 5%;
+
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 212 100% 48%;
+    
+    /* Dark Mode Security Colors */
+    --security-primary: 212 100% 48%;
+    --security-accent: 142 76% 36%;
+    --data-mask: 271 91% 65%;
+    --data-analysis: 217 91% 60%;
+
+    /* Dark Mode Sidebar */
+    --sidebar-background: 224 71% 4%;
+    --sidebar-foreground: 215 20% 65%;
+    --sidebar-primary: 212 100% 48%;
+    --sidebar-primary-foreground: 222 84% 5%;
+    --sidebar-accent: 217 32% 17%;
+    --sidebar-accent-foreground: 215 20% 65%;
+    --sidebar-border: 217 32% 17%;
+    --sidebar-ring: 212 100% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

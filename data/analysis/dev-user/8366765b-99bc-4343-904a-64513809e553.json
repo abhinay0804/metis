@@ -1,0 +1,29 @@
+{
+  "file_name": "File_003.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T18:03:58.582480+00:00",
+  "result": {
+    "dataQuality": 65,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply standard data governance policies"
+    ],
+    "riskLevel": "Low",
+    "description": "Visitors Logbook. A paper-based visitor logbook where individuals manually write their name, reason for visit, time in/out, and provide a signature. Multiple entries are visible.",
+    "keyFindings": [
+      "Manual entry system, dependent on handwriting.",
+      "Prone to errors, illegible writing, and falsification.",
+      "No automatic time tracking—relies on honesty and accuracy of the visitor."
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "word_count": 56
+    },
+    "sampleFormat": true
+  }
+}

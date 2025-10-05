@@ -1,0 +1,31 @@
+{
+  "file_name": "File_005.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-02T17:08:32.789457+00:00",
+  "result": {
+    "dataQuality": 55,
+    "sensitiveFields": 0,
+    "compliance": [
+      "ISO 27001"
+    ],
+    "recommendations": [
+      "Conduct network security assessment",
+      "Implement network segmentation and monitoring",
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "PNG image (732x468) containing text beginning with: \"INTERNET DMZ TRUSTED PRIVILEGED eae...\" (28 total words)",
+    "keyFindings": [
+      "OCR extracted 28 words of readable text from image"
+    ],
+    "contentCategories": [
+      "network",
+      "infrastructure"
+    ],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "word_count": 31
+    }
+  }
+}

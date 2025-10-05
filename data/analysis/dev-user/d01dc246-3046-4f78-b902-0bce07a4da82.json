@@ -1,0 +1,23 @@
+{
+  "file_name": "File_014.pptx",
+  "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "created_at": "2025-10-02T09:21:59.737179+00:00",
+  "result": {
+    "dataQuality": 75,
+    "sensitiveFields": 4,
+    "compliance": [
+      "GDPR"
+    ],
+    "recommendations": [
+      "Mask PII such as emails and phone numbers",
+      "Restrict access and enable auditing for this data"
+    ],
+    "riskLevel": "Medium",
+    "description": "Visitors Logbook — A paper-based register for manual entry of visitor details, time-in/time-out and signatures.",
+    "keyFindings": [
+      "Manual, paper-based entry dependent on handwriting",
+      "Prone to errors, illegible writing, and falsification",
+      "No automatic time tracking; relies on honesty and accuracy"
+    ]
+  }
+}

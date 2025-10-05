@@ -1,0 +1,27 @@
+{
+  "file_name": "File_001.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T18:04:34.163740+00:00",
+  "result": {
+    "dataQuality": 55,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply standard data governance policies"
+    ],
+    "riskLevel": "Low",
+    "description": "Document containing idf/, electrical and related information with 17 words of extracted text.",
+    "keyFindings": [
+      "Content requires standard data governance policies"
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "word_count": 20
+    },
+    "sampleFormat": true
+  }
+}

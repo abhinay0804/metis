@@ -1,0 +1,30 @@
+{
+  "file_name": "File_001.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T16:37:43.183173+00:00",
+  "result": {
+    "dataQuality": 70,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "Infrastructure facility signage showing ELECTRICAL",
+    "keyFindings": [
+      "Infrastructure facility identification signage or room labeling.",
+      "Contains facility location information and infrastructure designations.",
+      "May indicate electrical, mechanical, or IT infrastructure areas requiring access control.",
+      "Contains 17 words with key terms: ELECTRICAL"
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "good_resolution": true,
+      "word_count": 20
+    }
+  }
+}

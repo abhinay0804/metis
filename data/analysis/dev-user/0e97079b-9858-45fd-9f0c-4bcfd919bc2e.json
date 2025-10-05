@@ -1,0 +1,37 @@
+{
+  "file_name": "File_002.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T17:38:14.180463+00:00",
+  "result": {
+    "dataQuality": 30,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply standard data governance policies"
+    ],
+    "riskLevel": "Low",
+    "description": "Content classified as business communication. appears to be general informational content. with key concepts: image, rgba.",
+    "keyFindings": [
+      "Document contains 3 words of content"
+    ],
+    "contentInsights": {
+      "categories": "business communication",
+      "confidence": 0.6,
+      "insights": "Content classified as business communication. appears to be general informational content. with key concepts: image, rgba.",
+      "riskFactors": []
+    },
+    "structureInfo": {
+      "has_text": true,
+      "word_count": 3
+    },
+    "dynamicAnalysis": true,
+    "patternInsights": {
+      "categories": [],
+      "primary_category": "general",
+      "confidence": 0
+    },
+    "enhancedAnalysis": true
+  }
+}

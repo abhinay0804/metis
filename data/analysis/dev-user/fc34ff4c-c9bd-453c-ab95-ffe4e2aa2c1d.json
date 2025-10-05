@@ -1,0 +1,12 @@
+{
+  "file_name": "File_003.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T19:24:02.540450+00:00",
+  "result": {
+    "description": "Document containing sales, [sleealcheacso, book and related information with 56 words of extractable text.",
+    "keyFindings": [
+      "Image file requiring visual content analysis and OCR processing"
+    ],
+    "qualityAnalysis": true
+  }
+}

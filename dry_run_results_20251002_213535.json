@@ -1,0 +1,710 @@
+{
+  "test_summary": {
+    "total_files": 15,
+    "successful_extractions": 15,
+    "successful_maskings": 15,
+    "successful_analyses": 15,
+    "failed_files": []
+  },
+  "file_results": {
+    "File_001.png": {
+      "file_name": "File_001.png",
+      "file_size": 301723,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (1000x800), 295KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGB",
+        "size": [
+          1000,
+          800
+        ],
+        "width": 1000,
+        "height": 800,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_002.png": {
+      "file_name": "File_002.png",
+      "file_size": 768403,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (887x586), 750KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          887,
+          586
+        ],
+        "width": 887,
+        "height": 586,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_003.png": {
+      "file_name": "File_003.png",
+      "file_size": 231171,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (967x501), 226KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          967,
+          501
+        ],
+        "width": 967,
+        "height": 501,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_004.png": {
+      "file_name": "File_004.png",
+      "file_size": 225771,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (1200x927), 220KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          1200,
+          927
+        ],
+        "width": 1200,
+        "height": 927,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_005.png": {
+      "file_name": "File_005.png",
+      "file_size": 79839,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 30,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (732x468), 78KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "P",
+        "size": [
+          732,
+          468
+        ],
+        "width": 732,
+        "height": 468,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_006.jpg": {
+      "file_name": "File_006.jpg",
+      "file_size": 62646,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 30,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "JPEG image (800x482), 61KB with no readable text content."
+        }
+      },
+      "file_type": "image/jpeg",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          800,
+          482
+        ],
+        "width": 800,
+        "height": 482,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_007.png": {
+      "file_name": "File_007.png",
+      "file_size": 1320200,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (1024x1024), 1.3MB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGB",
+        "size": [
+          1024,
+          1024
+        ],
+        "width": 1024,
+        "height": 1024,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_008.xlsx": {
+      "file_name": "File_008.xlsx",
+      "file_size": 23843,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "High",
+          "dataQuality": 85,
+          "sensitiveFields": 100,
+          "contentCategories": [
+            "employee_data",
+            "access_control"
+          ],
+          "description": "Excel spreadsheet with 1 worksheet(s), containing 101 rows and 10 columns. Contains employee directory or HR data with personal information and organizational details."
+        }
+      },
+      "file_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content_keys": [
+        "worksheets",
+        "metadata",
+        "sheet_count"
+      ]
+    },
+    "File_009.png": {
+      "file_name": "File_009.png",
+      "file_size": 12474,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 30,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (697x410), 12KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          697,
+          410
+        ],
+        "width": 697,
+        "height": 410,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_010.png": {
+      "file_name": "File_010.png",
+      "file_size": 81303,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (1087x515), 79KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          1087,
+          515
+        ],
+        "width": 1087,
+        "height": 515,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_011.png": {
+      "file_name": "File_011.png",
+      "file_size": 33517,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "JPEG image (676x800), 33KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          676,
+          800
+        ],
+        "width": 676,
+        "height": 800,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_012.pdf": {
+      "file_name": "File_012.pdf",
+      "file_size": 1165914,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 55,
+          "sensitiveFields": 2,
+          "contentCategories": [],
+          "description": "PDF document with 7 page(s) containing formatted text. Begins with: \"User Registration and\nDe-registration Process...\""
+        }
+      },
+      "file_type": "application/pdf",
+      "content_keys": [
+        "text_content",
+        "tables",
+        "metadata",
+        "images",
+        "page_count"
+      ]
+    },
+    "File_013.png": {
+      "file_name": "File_013.png",
+      "file_size": 41537,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (888x737), 41KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          888,
+          737
+        ],
+        "width": 888,
+        "height": 737,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_014.pptx": {
+      "file_name": "File_014.pptx",
+      "file_size": 1945802,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Medium",
+          "dataQuality": 75,
+          "sensitiveFields": 4,
+          "contentCategories": [
+            "network",
+            "employee_data",
+            "access_control"
+          ],
+          "description": "PowerPoint presentation with 3 slides documenting network architecture, system designs, or technical infrastructure."
+        }
+      },
+      "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "content_keys": [
+        "slides",
+        "metadata",
+        "slide_count"
+      ]
+    },
+    "File_015.jpg": {
+      "file_name": "File_015.jpg",
+      "file_size": 79053,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "JPEG image (1197x721), 77KB with no readable text content."
+        }
+      },
+      "file_type": "image/jpeg",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "ocr_error",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          1197,
+          721
+        ],
+        "width": 1197,
+        "height": 721,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    }
+  }
+}

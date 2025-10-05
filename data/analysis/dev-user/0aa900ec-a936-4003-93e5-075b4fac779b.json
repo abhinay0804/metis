@@ -1,0 +1,13 @@
+{
+  "file_name": "File_006.jpg",
+  "file_type": "image/jpeg",
+  "created_at": "2025-10-04T18:43:51.025134+00:00",
+  "result": {
+    "description": "Document containing sbath_bagon, raves, «menta and related information.",
+    "keyFindings": [
+      "Contains system infrastructure details requiring technical review",
+      "May include configuration or operational information requiring protection"
+    ],
+    "naturalFormat": true
+  }
+}

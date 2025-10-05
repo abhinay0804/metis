@@ -1,0 +1,17 @@
+{
+  "file_name": "File_012.pdf",
+  "file_type": "application/pdf",
+  "created_at": "2025-10-04T19:23:23.860015+00:00",
+  "result": {
+    "description": "PDF document with 7 pages containing admin, than, informed and related information with 2429 words of text content",
+    "keyFindings": [
+      "Contains access control system documentation requiring security review",
+      "May include authentication mechanisms or security procedures requiring protection",
+      "Contains 5 important information segments",
+      "Contains 2 sensitive data elements requiring protection",
+      "Found 1 phone numbers needing privacy protection",
+      "PDF document requiring text extraction and content analysis"
+    ],
+    "qualityAnalysis": true
+  }
+}
