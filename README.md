@@ -51,16 +51,12 @@ pip install python-magic-bin
 ```python
 from file_processor import FileProcessor
 
-# Initialize processor
 processor = FileProcessor()
 
-# Process a single file
 result = processor.process_file("document.pdf", mask_sensitive=True)
 
-# Process multiple files
 results = processor.process_multiple_files(["file1.pdf", "file2.pptx"])
 
-# Save results
 processor.save_results(results, "output.json")
 ```
 
