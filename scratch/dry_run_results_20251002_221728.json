@@ -1,0 +1,727 @@
+{
+  "test_summary": {
+    "total_files": 15,
+    "successful_extractions": 15,
+    "successful_maskings": 15,
+    "successful_analyses": 15,
+    "failed_files": []
+  },
+  "file_results": {
+    "File_001.png": {
+      "file_name": "File_001.png",
+      "file_size": 301723,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 70,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (1000x800) containing text beginning with: \"211 IDF/ ELECTRICAL ict eae...\" (17 total words)"
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 57,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGB",
+        "size": [
+          1000,
+          800
+        ],
+        "width": 1000,
+        "height": 800,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_002.png": {
+      "file_name": "File_002.png",
+      "file_size": 768403,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 45,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (887x586), 750KB with no readable text content."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 0,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          887,
+          586
+        ],
+        "width": 887,
+        "height": 586,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_003.png": {
+      "file_name": "File_003.png",
+      "file_size": 231171,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 80,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "PNG image (967x501) containing text beginning with: \"VISITORS LOG BOOK PLEASE SIGN...\" (53 total words)"
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 207,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          967,
+          501
+        ],
+        "width": 967,
+        "height": 501,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_004.png": {
+      "file_name": "File_004.png",
+      "file_size": 225771,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 80,
+          "sensitiveFields": 0,
+          "contentCategories": [
+            "access_control",
+            "compliance",
+            "infrastructure"
+          ],
+          "description": "PNG image (1200x927) containing text beginning with: \"Data Destruction This certifies that...\" (76 total words)"
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 558,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          1200,
+          927
+        ],
+        "width": 1200,
+        "height": 927,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_005.png": {
+      "file_name": "File_005.png",
+      "file_size": 79839,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 55,
+          "sensitiveFields": 0,
+          "contentCategories": [
+            "network",
+            "infrastructure"
+          ],
+          "description": "PNG image (732x468) containing text beginning with: \"INTERNET DMZ TRUSTED PRIVILEGED eae...\" (28 total words)"
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 165,
+      "image_info": {
+        "format": "PNG",
+        "mode": "P",
+        "size": [
+          732,
+          468
+        ],
+        "width": 732,
+        "height": 468,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_006.jpg": {
+      "file_name": "File_006.jpg",
+      "file_size": 62646,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 65,
+          "sensitiveFields": 0,
+          "contentCategories": [
+            "infrastructure"
+          ],
+          "description": "JPEG image (800x482) containing text beginning with: \"D)10-stike wework Montor Pro Mode:...\" (83 total words)"
+        }
+      },
+      "file_type": "image/jpeg",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 367,
+      "image_info": {
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          800,
+          482
+        ],
+        "width": 800,
+        "height": 482,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_007.png": {
+      "file_name": "File_007.png",
+      "file_size": 1320200,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 70,
+          "sensitiveFields": 0,
+          "contentCategories": [
+            "access_control",
+            "infrastructure"
+          ],
+          "description": "PNG image (1024x1024) showing access control equipment with card reader functionality. OCR detected 46 words of text."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 250,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGB",
+        "size": [
+          1024,
+          1024
+        ],
+        "width": 1024,
+        "height": 1024,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_008.xlsx": {
+      "file_name": "File_008.xlsx",
+      "file_size": 23843,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "High",
+          "dataQuality": 85,
+          "sensitiveFields": 100,
+          "contentCategories": [
+            "employee_data",
+            "access_control"
+          ],
+          "description": "Excel spreadsheet with 1 worksheet(s), containing 101 rows and 10 columns. Contains employee directory or HR data with personal information and organizational details."
+        }
+      },
+      "file_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content_keys": [
+        "worksheets",
+        "metadata",
+        "sheet_count"
+      ]
+    },
+    "File_009.png": {
+      "file_name": "File_009.png",
+      "file_size": 12474,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 55,
+          "sensitiveFields": 0,
+          "contentCategories": [
+            "compliance"
+          ],
+          "description": "PNG image (697x410) containing text beginning with: \"\u201cGroupName\": \u201cTest-Group\", \u201cPolicyDocument\": \u201cStatement\u201d: \"Action\":...\" (23 total words)"
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 180,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          697,
+          410
+        ],
+        "width": 697,
+        "height": 410,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_010.png": {
+      "file_name": "File_010.png",
+      "file_size": 81303,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Medium",
+          "dataQuality": 80,
+          "sensitiveFields": 2,
+          "contentCategories": [
+            "network",
+            "employee_data"
+          ],
+          "description": "PNG image (1087x515) showing network infrastructure diagram or configuration details. Contains 89 words of technical information."
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 615,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          1087,
+          515
+        ],
+        "width": 1087,
+        "height": 515,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_011.png": {
+      "file_name": "File_011.png",
+      "file_size": 33517,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 70,
+          "sensitiveFields": 0,
+          "contentCategories": [],
+          "description": "JPEG image (676x800) containing text beginning with: \"Check for Duo Push Verify...\" (23 total words)"
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 135,
+      "image_info": {
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          676,
+          800
+        ],
+        "width": 676,
+        "height": 800,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    },
+    "File_012.pdf": {
+      "file_name": "File_012.pdf",
+      "file_size": 1165914,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Medium",
+          "dataQuality": 75,
+          "sensitiveFields": 2,
+          "contentCategories": [
+            "access_control",
+            "infrastructure",
+            "employee_data"
+          ],
+          "description": "PDF document with 7 page(s) containing formatted text. Begins with: \"User Registration and\nDe-registration Process...\""
+        }
+      },
+      "file_type": "application/pdf",
+      "content_keys": [
+        "text_content",
+        "tables",
+        "metadata",
+        "images",
+        "page_count"
+      ]
+    },
+    "File_013.png": {
+      "file_name": "File_013.png",
+      "file_size": 41537,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Medium",
+          "dataQuality": 80,
+          "sensitiveFields": 2,
+          "contentCategories": [
+            "access_control",
+            "infrastructure",
+            "employee_data"
+          ],
+          "description": "PNG image (888x737) containing text beginning with: \"aws iam create-role --role-name Test-Role...\" (55 total words)"
+        }
+      },
+      "file_type": "image/png",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 534,
+      "image_info": {
+        "format": "PNG",
+        "mode": "RGBA",
+        "size": [
+          888,
+          737
+        ],
+        "width": 888,
+        "height": 737,
+        "has_transparency": true
+      },
+      "logo_detections": 0,
+      "text_redactions": 1
+    },
+    "File_014.pptx": {
+      "file_name": "File_014.pptx",
+      "file_size": 1945802,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Medium",
+          "dataQuality": 75,
+          "sensitiveFields": 4,
+          "contentCategories": [
+            "network",
+            "employee_data",
+            "access_control"
+          ],
+          "description": "PowerPoint presentation with 3 slides documenting network architecture, system designs, or technical infrastructure."
+        }
+      },
+      "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "content_keys": [
+        "slides",
+        "metadata",
+        "slide_count"
+      ]
+    },
+    "File_015.jpg": {
+      "file_name": "File_015.jpg",
+      "file_size": 79053,
+      "extraction": {
+        "success": true,
+        "error": null
+      },
+      "masking": {
+        "success": true,
+        "error": null,
+        "sensitive_count": 0
+      },
+      "analysis": {
+        "success": true,
+        "error": null,
+        "result": {
+          "riskLevel": "Low",
+          "dataQuality": 80,
+          "sensitiveFields": 0,
+          "contentCategories": [
+            "access_control",
+            "compliance",
+            "infrastructure"
+          ],
+          "description": "JPEG image (1197x721) containing text beginning with: \"Allservices Conditional Access Policies...\" (89 total words)"
+        }
+      },
+      "file_type": "image/jpeg",
+      "content_keys": [
+        "image_info",
+        "base64_data",
+        "file_size",
+        "logo_detections",
+        "redacted_image_base64",
+        "ocr_text",
+        "text_redactions",
+        "mime_type"
+      ],
+      "ocr_length": 522,
+      "image_info": {
+        "format": "JPEG",
+        "mode": "RGB",
+        "size": [
+          1197,
+          721
+        ],
+        "width": 1197,
+        "height": 721,
+        "has_transparency": false
+      },
+      "logo_detections": 0,
+      "text_redactions": 0
+    }
+  }
+}

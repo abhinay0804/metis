@@ -1,0 +1,28 @@
+{
+  "file_name": "File_002.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T15:56:31.380807+00:00",
+  "result": {
+    "dataQuality": 45,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "Security Monitor Display",
+    "keyFindings": [
+      "Security monitoring display or control panel interface.",
+      "Likely contains operational status, alerts, or system information.",
+      "May expose network topology, device status, or security configurations."
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "good_resolution": true,
+      "word_count": 3
+    }
+  }
+}

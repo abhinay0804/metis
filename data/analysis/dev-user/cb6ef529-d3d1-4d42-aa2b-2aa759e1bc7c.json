@@ -1,0 +1,34 @@
+{
+  "file_name": "File_005.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-02T17:11:55.089834+00:00",
+  "result": {
+    "dataQuality": 55,
+    "sensitiveFields": 0,
+    "compliance": [
+      "ISO 27001"
+    ],
+    "recommendations": [
+      "Conduct network security assessment",
+      "Implement network segmentation and monitoring",
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "Network Infrastructure Diagram",
+    "keyFindings": [
+      "Network infrastructure diagram showing security zones and system architecture.",
+      "Contains network segmentation with DMZ, trusted, and privileged zones.",
+      "Displays critical infrastructure components including VPN gateways and services.",
+      "May expose network topology, IP ranges, and security boundaries requiring protection."
+    ],
+    "contentCategories": [
+      "network",
+      "infrastructure"
+    ],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "word_count": 31
+    }
+  }
+}

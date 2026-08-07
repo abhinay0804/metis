@@ -1,0 +1,27 @@
+{
+  "file_name": "File_003.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-02T17:20:59.631514+00:00",
+  "result": {
+    "dataQuality": 80,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "Visitors Logbook",
+    "keyFindings": [
+      "Contains 53 words with key terms: VISITORS, BOOK, PLEASE, SIGN, Kate"
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "good_resolution": true,
+      "word_count": 56
+    }
+  }
+}

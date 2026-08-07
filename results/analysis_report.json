@@ -1,0 +1,22 @@
+{
+  "description": "An internal HR memo detailing the onboarding of a new engineering lead. The document contains highly sensitive employee information including direct deposit banking details and a social security number.",
+  "keyFindings": [
+    "Identified full name and personal contact information (email, phone).",
+    "Detected highly sensitive Social Security Number (SSN).",
+    "Detected direct deposit banking details (Bank Name, Account, Routing Number).",
+    "Identified compensation information (sign-on bonus)."
+  ],
+  "dataQuality": 95,
+  "riskLevel": "High",
+  "sensitiveFields": 14,
+  "compliance": [
+    "GDPR",
+    "CCPA",
+    "Internal HR Policy"
+  ],
+  "recommendations": [
+    "Ensure this document is stored in an encrypted HR database with strict access controls.",
+    "Do not transmit this document over unencrypted email channels.",
+    "Automatically redact SSN and banking details before internal circulation."
+  ]
+}

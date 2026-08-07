@@ -1,0 +1,25 @@
+{
+  "file_name": "File_005.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-02T16:07:58.892600+00:00",
+  "result": {
+    "dataQuality": 30,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "PNG image (732x468), 78KB with no readable text content.",
+    "keyFindings": [
+      "Image contains no extractable text or identifiable elements"
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "word_count": 11
+    }
+  }
+}

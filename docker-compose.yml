@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  # Database Service
+  db:
+    image: postgres:16-alpine
+    container_name: metis_db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-metis}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-metis_dev_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-metis}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-metis}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # Redis Cache & Message Broker
+  redis:
+    image: redis:7-alpine
+    container_name: metis_redis
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    image: metis_backend
+    container_name: metis_backend
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER:-metis}:${POSTGRES_PASSWORD:-metis_dev_pass}@db:5432/${POSTGRES_DB:-metis}
+      - REDIS_URL=redis://redis:6379/0
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-change_this_to_a_secure_random_string_in_production}
+      - JWT_ALGORITHM=HS256
+      - ALLOW_DEV_BYPASS=${ALLOW_DEV_BYPASS:-0}
+    ports:
+      - "8001:8001"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./uploads:/app/uploads
+      - ./reversible:/app/reversible
+    restart: unless-stopped
+
+  # Celery Async Worker (For Phase 4)
+  worker:
+    image: metis_backend
+    container_name: metis_worker
+    command: ["celery", "-A", "microservices.tasks.celery_app", "worker", "--loglevel=info"]
+    environment:
+      - PYTHONPATH=/app
+      - DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER:-metis}:${POSTGRES_PASSWORD:-metis_dev_pass}@db:5432/${POSTGRES_DB:-metis}
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./uploads:/app/uploads
+      - ./reversible:/app/reversible
+    restart: unless-stopped
+
+  # React Frontend + NGINX
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: metis_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:

@@ -1,0 +1,17 @@
+{
+  "file_name": "File_014.pptx",
+  "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "created_at": "2025-10-04T19:27:20.598267+00:00",
+  "result": {
+    "description": "Presentation with 3 slides containing team, rahman, any) and related content with 97 words of text content",
+    "keyFindings": [
+      "Contains access control system documentation requiring security review",
+      "May include authentication mechanisms or security procedures requiring protection",
+      "Contains 2 important information segments",
+      "Contains 4 sensitive data elements requiring protection",
+      "Identified 4 email addresses requiring data masking",
+      "Presentation file requiring slide content analysis"
+    ],
+    "qualityAnalysis": true
+  }
+}

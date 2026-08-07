@@ -1,0 +1,26 @@
+{
+  "file_name": "File_015.jpg",
+  "file_type": "image/jpeg",
+  "created_at": "2025-10-02T16:12:15.183734+00:00",
+  "result": {
+    "dataQuality": 45,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "JPEG image (1197x721), 77KB with no readable text content.",
+    "keyFindings": [
+      "Image contains no extractable text or identifiable elements"
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "good_resolution": true,
+      "word_count": 11
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "file_name": "File_001.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T17:37:30.537747+00:00",
+  "result": {
+    "dataQuality": 55,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply data governance policies for organizational information",
+      "Implement audit logging for business data access"
+    ],
+    "riskLevel": "Low",
+    "description": "Content classified as infrastructure details. appears to be general informational content. related to 1 organizations. with key concepts: electrical, image.",
+    "keyFindings": [
+      "Document contains 20 words of content",
+      "References 1 organizations requiring data governance review"
+    ],
+    "contentInsights": {
+      "categories": "infrastructure details",
+      "confidence": 0.6,
+      "insights": "Content classified as infrastructure details. appears to be general informational content. related to 1 organizations. with key concepts: electrical, image.",
+      "riskFactors": []
+    },
+    "structureInfo": {
+      "has_text": true,
+      "word_count": 20,
+      "has_ocr": true
+    },
+    "dynamicAnalysis": true,
+    "patternInsights": {
+      "categories": [],
+      "primary_category": "general",
+      "confidence": 0
+    },
+    "enhancedAnalysis": true
+  }
+}

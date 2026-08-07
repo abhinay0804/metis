@@ -1,0 +1,16 @@
+{
+  "file_name": "File_007.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T18:44:02.656518+00:00",
+  "result": {
+    "description": "Access control system using ID cards or badges for entry authentication and tracking.",
+    "keyFindings": [
+      "Digital access control system using ID/employee cards",
+      "Automates entry tracking by time-stamping when the card is swiped",
+      "Dependent on card validity and system integrity (cards can be lost or borrowed)",
+      "Contains access control system documentation requiring security review",
+      "May include authentication mechanisms or security procedures requiring protection"
+    ],
+    "naturalFormat": true
+  }
+}

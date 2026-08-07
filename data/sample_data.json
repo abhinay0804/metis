@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Wilson",
+    "email": "sarah.wilson@example.com",
+    "phone": "555-0198",
+    "ssn": "000-00-0000",
+    "credit_card": "4111-1111-1111-1111"
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "email": "johndoe@test.org",
+    "phone": "555-1234",
+    "ssn": "111-11-1111",
+    "credit_card": "4222-2222-2222-2222"
+  }
+]

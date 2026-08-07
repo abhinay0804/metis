@@ -1,0 +1,46 @@
+{
+  "file_name": "File_014.pptx",
+  "file_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+  "created_at": "2025-10-02T09:42:54.934430+00:00",
+  "result": {
+    "dataQuality": 75,
+    "sensitiveFields": 4,
+    "compliance": [
+      "HIPAA",
+      "ISO 27001",
+      "GDPR"
+    ],
+    "recommendations": [
+      "Implement data masking for personal identifiers (emails, phone numbers)",
+      "Establish role-based access controls for HR data",
+      "Implement audit logging for employee data access",
+      "Review and validate access control configurations",
+      "Implement multi-factor authentication where applicable",
+      "Conduct network security assessment",
+      "Implement network segmentation and monitoring",
+      "Restrict access and enable comprehensive audit logging",
+      "Implement data loss prevention (DLP) controls"
+    ],
+    "riskLevel": "Medium",
+    "description": "PowerPoint presentation with 3 slides documenting network architecture, system designs, or technical infrastructure.",
+    "keyFindings": [
+      "Contains 4 sensitive data elements across 1 categories",
+      "Identified 4 email addresses requiring protection",
+      "Presentation contains 3 slides with structured content",
+      "Includes 1 table(s) with tabular data requiring governance",
+      "Contains 3 text elements across slides",
+      "Network infrastructure documentation requiring IT security review"
+    ],
+    "contentCategories": [
+      "network",
+      "employee_data",
+      "access_control"
+    ],
+    "structureInfo": {
+      "has_text": true,
+      "structured_document": true,
+      "has_tables": true,
+      "word_count": 97
+    }
+  }
+}

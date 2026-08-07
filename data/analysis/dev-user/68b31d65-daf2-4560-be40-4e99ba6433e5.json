@@ -1,0 +1,42 @@
+{
+  "file_name": "File_008.xlsx",
+  "file_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "created_at": "2025-10-02T09:42:38.419004+00:00",
+  "result": {
+    "dataQuality": 85,
+    "sensitiveFields": 100,
+    "compliance": [
+      "HIPAA",
+      "ISO 27001",
+      "GDPR"
+    ],
+    "recommendations": [
+      "Implement data masking for personal identifiers (emails, phone numbers)",
+      "Establish role-based access controls for HR data",
+      "Implement audit logging for employee data access",
+      "Review and validate access control configurations",
+      "Implement multi-factor authentication where applicable",
+      "Restrict access and enable comprehensive audit logging",
+      "Implement data loss prevention (DLP) controls"
+    ],
+    "riskLevel": "High",
+    "description": "Excel spreadsheet with 1 worksheet(s), containing 101 rows and 10 columns. Contains employee directory or HR data with personal information and organizational details.",
+    "keyFindings": [
+      "Contains 100 sensitive data elements across 1 categories",
+      "Identified 100 email addresses requiring protection",
+      "Structured data with 101 rows and 10 columns across 1 worksheet(s)",
+      "Contains employee or personnel data requiring HR governance",
+      "Includes contact information subject to privacy regulations"
+    ],
+    "contentCategories": [
+      "employee_data",
+      "access_control"
+    ],
+    "structureInfo": {
+      "has_text": true,
+      "structured_document": true,
+      "has_tables": true,
+      "word_count": 1350
+    }
+  }
+}

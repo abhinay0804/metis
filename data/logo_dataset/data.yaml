@@ -1,0 +1,14 @@
+path: /mnt/shared/Projects/Metis/data/logo_dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 33
+names: ['audi', 'bmw', 'byd', 'cherry', 'chevrolet', 'citroen', 'cupra', 'dacia', 'fiat', 'ford', 'honda', 'hyundai', 'kia', 'landrover', 'mazda', 'mercedes', 'mg', 'mini', 'mitsubishi', 'nissan', 'opel', 'pegout', 'porsche', 'rangerover', 'renault', 'seat', 'skoda', 'suzuki', 'tesla', 'togg', 'toyota', 'volvo', 'wolksvogen']
+
+roboflow:
+  workspace: carbranddataset
+  project: car-brand-evy1f
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/carbranddataset/car-brand-evy1f/dataset/12

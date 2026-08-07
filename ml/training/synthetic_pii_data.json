@@ -1,0 +1,2374 @@
+[
+  {
+    "text": "My SSN is 853-01-3733 and my credit card is 180030861584505. Name: Robert Campbell.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Robert Campbell",
+        "start": 67,
+        "end": 82
+      },
+      {
+        "entity": "SSN",
+        "value": "853-01-3733",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "180030861584505",
+        "start": 44,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "text": "Employee Daniel Zuniga lives at 6552 Carl Common, New Walter, LA 36367. Emergency contact: 001-260-426-7573.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Daniel Zuniga",
+        "start": 9,
+        "end": 22
+      },
+      {
+        "entity": "PHONE",
+        "value": "001-260-426-7573",
+        "start": 91,
+        "end": 107
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "6552 Carl Common, New Walter, LA 36367",
+        "start": 32,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "text": "Please contact Yvette Perez at ronnietran@example.org or call 800.454.8470x232. Their address is 400 Timothy Oval Apt. 029, Millermouth, WY 35606.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Yvette Perez",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "entity": "EMAIL",
+        "value": "ronnietran@example.org",
+        "start": 31,
+        "end": 53
+      },
+      {
+        "entity": "PHONE",
+        "value": "800.454.8470x232",
+        "start": 62,
+        "end": 78
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "400 Timothy Oval Apt. 029, Millermouth, WY 35606",
+        "start": 97,
+        "end": 145
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Joseph Richards: Please send payment to USNV Golden, FPO AE 21746. Email confirmation to mcdonalddiana@example.com.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Joseph Richards",
+        "start": 12,
+        "end": 27
+      },
+      {
+        "entity": "EMAIL",
+        "value": "mcdonalddiana@example.com",
+        "start": 101,
+        "end": 126
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "USNV Golden, FPO AE 21746",
+        "start": 52,
+        "end": 77
+      }
+    ]
+  },
+  {
+    "text": "Reach out to David Bailey via cindy82@example.com or 673.903.4043x502. SSN on record: 697-75-6328.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "David Bailey",
+        "start": 13,
+        "end": 25
+      },
+      {
+        "entity": "EMAIL",
+        "value": "cindy82@example.com",
+        "start": 30,
+        "end": 49
+      },
+      {
+        "entity": "PHONE",
+        "value": "673.903.4043x502",
+        "start": 53,
+        "end": 69
+      },
+      {
+        "entity": "SSN",
+        "value": "697-75-6328",
+        "start": 86,
+        "end": 97
+      }
+    ]
+  },
+  {
+    "text": "Employee Jack Walls lives at 06448 Griffin Trace Suite 707, Harrisberg, GA 63674. Emergency contact: (379)934-4839x400.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jack Walls",
+        "start": 9,
+        "end": 19
+      },
+      {
+        "entity": "PHONE",
+        "value": "(379)934-4839x400",
+        "start": 101,
+        "end": 118
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "06448 Griffin Trace Suite 707, Harrisberg, GA 63674",
+        "start": 29,
+        "end": 80
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 344-69-9303 and my credit card is 5250437526612452. Name: Pamela Wright.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Pamela Wright",
+        "start": 68,
+        "end": 81
+      },
+      {
+        "entity": "SSN",
+        "value": "344-69-9303",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "5250437526612452",
+        "start": 44,
+        "end": 60
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Carrie Molina via kathleen64@example.net or (771)716-5153. SSN on record: 880-54-2122.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Carrie Molina",
+        "start": 13,
+        "end": 26
+      },
+      {
+        "entity": "EMAIL",
+        "value": "kathleen64@example.net",
+        "start": 31,
+        "end": 53
+      },
+      {
+        "entity": "PHONE",
+        "value": "(771)716-5153",
+        "start": 57,
+        "end": 70
+      },
+      {
+        "entity": "SSN",
+        "value": "880-54-2122",
+        "start": 87,
+        "end": 98
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 176-43-2912 and my credit card is 180017896046055. Name: Alan Hernandez.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Alan Hernandez",
+        "start": 67,
+        "end": 81
+      },
+      {
+        "entity": "SSN",
+        "value": "176-43-2912",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "180017896046055",
+        "start": 44,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Stephanie Thornton via laura87@example.net or 545-932-8268. SSN on record: 653-30-9745.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Stephanie Thornton",
+        "start": 13,
+        "end": 31
+      },
+      {
+        "entity": "EMAIL",
+        "value": "laura87@example.net",
+        "start": 36,
+        "end": 55
+      },
+      {
+        "entity": "PHONE",
+        "value": "545-932-8268",
+        "start": 59,
+        "end": 71
+      },
+      {
+        "entity": "SSN",
+        "value": "653-30-9745",
+        "start": 88,
+        "end": 99
+      }
+    ]
+  },
+  {
+    "text": "Employee Christopher Chavez lives at 507 Sheila Prairie, North Eric, AS 78714. Emergency contact: +1-733-928-0510x3976.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Christopher Chavez",
+        "start": 9,
+        "end": 27
+      },
+      {
+        "entity": "PHONE",
+        "value": "+1-733-928-0510x3976",
+        "start": 98,
+        "end": 118
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "507 Sheila Prairie, North Eric, AS 78714",
+        "start": 37,
+        "end": 77
+      }
+    ]
+  },
+  {
+    "text": "Employee Tyrone Wood lives at 25661 Gomez Turnpike Apt. 061, North Gary, FL 96507. Emergency contact: 3913766920.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Tyrone Wood",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "entity": "PHONE",
+        "value": "3913766920",
+        "start": 102,
+        "end": 112
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "25661 Gomez Turnpike Apt. 061, North Gary, FL 96507",
+        "start": 30,
+        "end": 81
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to brooksmichael@example.net and CC Bridget Schmidt.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Bridget Schmidt",
+        "start": 58,
+        "end": 73
+      },
+      {
+        "entity": "EMAIL",
+        "value": "brooksmichael@example.net",
+        "start": 25,
+        "end": 50
+      }
+    ]
+  },
+  {
+    "text": "Employee Kristina Hardin lives at 935 Donald Trail, Lisastad, OK 27414. Emergency contact: 518.255.6784.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Kristina Hardin",
+        "start": 9,
+        "end": 24
+      },
+      {
+        "entity": "PHONE",
+        "value": "518.255.6784",
+        "start": 91,
+        "end": 103
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "935 Donald Trail, Lisastad, OK 27414",
+        "start": 34,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "text": "Please contact Christina Bennett at paula57@example.com or call (740)800-4445x6221. Their address is 342 Michael Loop Apt. 798, West Michellechester, SC 60805.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Christina Bennett",
+        "start": 15,
+        "end": 32
+      },
+      {
+        "entity": "EMAIL",
+        "value": "paula57@example.com",
+        "start": 36,
+        "end": 55
+      },
+      {
+        "entity": "PHONE",
+        "value": "(740)800-4445x6221",
+        "start": 64,
+        "end": 82
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "342 Michael Loop Apt. 798, West Michellechester, SC 60805",
+        "start": 101,
+        "end": 158
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to jhorn@example.org and CC Rodney Perkins.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Rodney Perkins",
+        "start": 50,
+        "end": 64
+      },
+      {
+        "entity": "EMAIL",
+        "value": "jhorn@example.org",
+        "start": 25,
+        "end": 42
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Joy Conley, 3578500773724914, 143 Garcia Cove Suite 641, North Stephanie, VA 04651.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Joy Conley",
+        "start": 17,
+        "end": 27
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "143 Garcia Cove Suite 641, North Stephanie, VA 04651",
+        "start": 47,
+        "end": 99
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "3578500773724914",
+        "start": 29,
+        "end": 45
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Nicole Jones: Please send payment to 85930 Donald Station Apt. 343, Mckinneyhaven, NH 43670. Email confirmation to jamiefletcher@example.com.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Nicole Jones",
+        "start": 12,
+        "end": 24
+      },
+      {
+        "entity": "EMAIL",
+        "value": "jamiefletcher@example.com",
+        "start": 127,
+        "end": 152
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "85930 Donald Station Apt. 343, Mckinneyhaven, NH 43670",
+        "start": 49,
+        "end": 103
+      }
+    ]
+  },
+  {
+    "text": "Employee Daniel Walters lives at 458 Noah Loop, Ashleychester, AK 13991. Emergency contact: +1-580-548-4037x0045.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Daniel Walters",
+        "start": 9,
+        "end": 23
+      },
+      {
+        "entity": "PHONE",
+        "value": "+1-580-548-4037x0045",
+        "start": 92,
+        "end": 112
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "458 Noah Loop, Ashleychester, AK 13991",
+        "start": 33,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "text": "The account number for Shaun Williams MD is 254-61-7351 and the credit card on file is 4037810366171815585.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Shaun Williams MD",
+        "start": 23,
+        "end": 40
+      },
+      {
+        "entity": "SSN",
+        "value": "254-61-7351",
+        "start": 44,
+        "end": 55
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4037810366171815585",
+        "start": 87,
+        "end": 106
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 104-23-8180 and my credit card is 4541169023685. Name: Yolanda Durham.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Yolanda Durham",
+        "start": 65,
+        "end": 79
+      },
+      {
+        "entity": "SSN",
+        "value": "104-23-8180",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4541169023685",
+        "start": 44,
+        "end": 57
+      }
+    ]
+  },
+  {
+    "text": "Please contact Jessica Sutton at baileymatthew@example.net or call +1-821-830-8921. Their address is 324 Carney Harbors Suite 506, Scottville, CA 58890.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jessica Sutton",
+        "start": 15,
+        "end": 29
+      },
+      {
+        "entity": "EMAIL",
+        "value": "baileymatthew@example.net",
+        "start": 33,
+        "end": 58
+      },
+      {
+        "entity": "PHONE",
+        "value": "+1-821-830-8921",
+        "start": 67,
+        "end": 82
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "324 Carney Harbors Suite 506, Scottville, CA 58890",
+        "start": 101,
+        "end": 151
+      }
+    ]
+  },
+  {
+    "text": "Employee Ashley Hernandez lives at 462 Rose Mills, Hallshire, PR 93475. Emergency contact: 588-528-7931.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Ashley Hernandez",
+        "start": 9,
+        "end": 25
+      },
+      {
+        "entity": "PHONE",
+        "value": "588-528-7931",
+        "start": 91,
+        "end": 103
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "462 Rose Mills, Hallshire, PR 93475",
+        "start": 35,
+        "end": 70
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Michael White, 4762375740282369, 389 Esparza Trail, Hillville, IN 69173.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Michael White",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "389 Esparza Trail, Hillville, IN 69173",
+        "start": 50,
+        "end": 88
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4762375740282369",
+        "start": 32,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "text": "Contact Joshua Holmes (3017844623) for support. Address: 55923 Amanda Crest, East Douglasmouth, ND 18475.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Joshua Holmes",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "entity": "PHONE",
+        "value": "3017844623",
+        "start": 23,
+        "end": 33
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "55923 Amanda Crest, East Douglasmouth, ND 18475",
+        "start": 57,
+        "end": 104
+      }
+    ]
+  },
+  {
+    "text": "Please contact Cindy Ellis at tony83@example.net or call 833-537-1530. Their address is 3301 Rodriguez Estate, Markburgh, NM 04721.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Cindy Ellis",
+        "start": 15,
+        "end": 26
+      },
+      {
+        "entity": "EMAIL",
+        "value": "tony83@example.net",
+        "start": 30,
+        "end": 48
+      },
+      {
+        "entity": "PHONE",
+        "value": "833-537-1530",
+        "start": 57,
+        "end": 69
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "3301 Rodriguez Estate, Markburgh, NM 04721",
+        "start": 88,
+        "end": 130
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Paige Robinson: Please send payment to 5559 Preston Groves, Port Scottfurt, MI 68986. Email confirmation to douglas29@example.com.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Paige Robinson",
+        "start": 12,
+        "end": 26
+      },
+      {
+        "entity": "EMAIL",
+        "value": "douglas29@example.com",
+        "start": 120,
+        "end": 141
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "5559 Preston Groves, Port Scottfurt, MI 68986",
+        "start": 51,
+        "end": 96
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to jasminerogers@example.net and CC Monica Cook.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Monica Cook",
+        "start": 58,
+        "end": 69
+      },
+      {
+        "entity": "EMAIL",
+        "value": "jasminerogers@example.net",
+        "start": 25,
+        "end": 50
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 774-16-1923 and my credit card is 5448043695272848. Name: Sharon Durham.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Sharon Durham",
+        "start": 68,
+        "end": 81
+      },
+      {
+        "entity": "SSN",
+        "value": "774-16-1923",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "5448043695272848",
+        "start": 44,
+        "end": 60
+      }
+    ]
+  },
+  {
+    "text": "Reach out to John Mullins via alyssa88@example.net or (866)548-8672x952. SSN on record: 648-38-4793.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "John Mullins",
+        "start": 13,
+        "end": 25
+      },
+      {
+        "entity": "EMAIL",
+        "value": "alyssa88@example.net",
+        "start": 30,
+        "end": 50
+      },
+      {
+        "entity": "PHONE",
+        "value": "(866)548-8672x952",
+        "start": 54,
+        "end": 71
+      },
+      {
+        "entity": "SSN",
+        "value": "648-38-4793",
+        "start": 88,
+        "end": 99
+      }
+    ]
+  },
+  {
+    "text": "Employee Justin Powell lives at 4697 Michael Trail, Smithfurt, KS 87805. Emergency contact: 551.873.8557x74489.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Justin Powell",
+        "start": 9,
+        "end": 22
+      },
+      {
+        "entity": "PHONE",
+        "value": "551.873.8557x74489",
+        "start": 92,
+        "end": 110
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "4697 Michael Trail, Smithfurt, KS 87805",
+        "start": 32,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Jessica Smith: Please send payment to 3313 Floyd Forest Apt. 456, South Richard, MH 24839. Email confirmation to estradasara@example.org.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jessica Smith",
+        "start": 12,
+        "end": 25
+      },
+      {
+        "entity": "EMAIL",
+        "value": "estradasara@example.org",
+        "start": 125,
+        "end": 148
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "3313 Floyd Forest Apt. 456, South Richard, MH 24839",
+        "start": 50,
+        "end": 101
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Angela Terrell, 3503999964139884, 3154 Rebecca Road, Fryeside, MN 57025.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Angela Terrell",
+        "start": 17,
+        "end": 31
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "3154 Rebecca Road, Fryeside, MN 57025",
+        "start": 51,
+        "end": 88
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "3503999964139884",
+        "start": 33,
+        "end": 49
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to baileybrian@example.com and CC Mr. Jacob Robertson PhD.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Mr. Jacob Robertson PhD",
+        "start": 56,
+        "end": 79
+      },
+      {
+        "entity": "EMAIL",
+        "value": "baileybrian@example.com",
+        "start": 25,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 819-51-6660 and my credit card is 180085476109338. Name: Dawn Fry.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Dawn Fry",
+        "start": 67,
+        "end": 75
+      },
+      {
+        "entity": "SSN",
+        "value": "819-51-6660",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "180085476109338",
+        "start": 44,
+        "end": 59
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Jessica Mcgee MD: Please send payment to 13215 Joshua Views Suite 751, West Courtneyfort, IL 38766. Email confirmation to mendozarebecca@example.org.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jessica Mcgee MD",
+        "start": 12,
+        "end": 28
+      },
+      {
+        "entity": "EMAIL",
+        "value": "mendozarebecca@example.org",
+        "start": 134,
+        "end": 160
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "13215 Joshua Views Suite 751, West Courtneyfort, IL 38766",
+        "start": 53,
+        "end": 110
+      }
+    ]
+  },
+  {
+    "text": "Please contact Melanie Walker at nelsonjonathan@example.com or call 567.564.9018x569. Their address is 6894 Paige Mall, Martinchester, DE 97781.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Melanie Walker",
+        "start": 15,
+        "end": 29
+      },
+      {
+        "entity": "EMAIL",
+        "value": "nelsonjonathan@example.com",
+        "start": 33,
+        "end": 59
+      },
+      {
+        "entity": "PHONE",
+        "value": "567.564.9018x569",
+        "start": 68,
+        "end": 84
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "6894 Paige Mall, Martinchester, DE 97781",
+        "start": 103,
+        "end": 143
+      }
+    ]
+  },
+  {
+    "text": "Contact Dawn Mcneil ((527)478-5075x6396) for support. Address: 439 Eric Isle, Saramouth, SD 37489.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Dawn Mcneil",
+        "start": 8,
+        "end": 19
+      },
+      {
+        "entity": "PHONE",
+        "value": "(527)478-5075x6396",
+        "start": 21,
+        "end": 39
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "439 Eric Isle, Saramouth, SD 37489",
+        "start": 63,
+        "end": 97
+      }
+    ]
+  },
+  {
+    "text": "The account number for Julie Moses is 276-94-9189 and the credit card on file is 376496780726358.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Julie Moses",
+        "start": 23,
+        "end": 34
+      },
+      {
+        "entity": "SSN",
+        "value": "276-94-9189",
+        "start": 38,
+        "end": 49
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "376496780726358",
+        "start": 81,
+        "end": 96
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 175-10-8770 and my credit card is 30107062119208. Name: Katherine Sexton.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Katherine Sexton",
+        "start": 66,
+        "end": 82
+      },
+      {
+        "entity": "SSN",
+        "value": "175-10-8770",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "30107062119208",
+        "start": 44,
+        "end": 58
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Lisa Schultz, 30510466356302, PSC 7806, Box 1115, APO AE 25759.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Lisa Schultz",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "PSC 7806, Box 1115, APO AE 25759",
+        "start": 47,
+        "end": 79
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "30510466356302",
+        "start": 31,
+        "end": 45
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to kristina86@example.org and CC Frank Perez.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Frank Perez",
+        "start": 55,
+        "end": 66
+      },
+      {
+        "entity": "EMAIL",
+        "value": "kristina86@example.org",
+        "start": 25,
+        "end": 47
+      }
+    ]
+  },
+  {
+    "text": "Please contact Brittney Clark at tasha16@example.net or call 001-522-866-6267x8334. Their address is 482 Dixon Villages, Port Andrewbury, OH 52519.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Brittney Clark",
+        "start": 15,
+        "end": 29
+      },
+      {
+        "entity": "EMAIL",
+        "value": "tasha16@example.net",
+        "start": 33,
+        "end": 52
+      },
+      {
+        "entity": "PHONE",
+        "value": "001-522-866-6267x8334",
+        "start": 61,
+        "end": 82
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "482 Dixon Villages, Port Andrewbury, OH 52519",
+        "start": 101,
+        "end": 146
+      }
+    ]
+  },
+  {
+    "text": "Employee Robert Hall lives at 391 Brown Oval Apt. 600, Mcguiremouth, VT 91033. Emergency contact: 552-280-5136.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Robert Hall",
+        "start": 9,
+        "end": 20
+      },
+      {
+        "entity": "PHONE",
+        "value": "552-280-5136",
+        "start": 98,
+        "end": 110
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "391 Brown Oval Apt. 600, Mcguiremouth, VT 91033",
+        "start": 30,
+        "end": 77
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Courtney Reyes: Please send payment to 5248 Ashley Highway Apt. 290, South Michellestad, CO 19641. Email confirmation to andersonmatthew@example.net.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Courtney Reyes",
+        "start": 12,
+        "end": 26
+      },
+      {
+        "entity": "EMAIL",
+        "value": "andersonmatthew@example.net",
+        "start": 133,
+        "end": 160
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "5248 Ashley Highway Apt. 290, South Michellestad, CO 19641",
+        "start": 51,
+        "end": 109
+      }
+    ]
+  },
+  {
+    "text": "Please contact Theresa Sanford at hrodriguez@example.org or call 001-676-828-5270x976. Their address is 48512 Smith Branch Apt. 052, Port Kristen, DE 73219.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Theresa Sanford",
+        "start": 15,
+        "end": 30
+      },
+      {
+        "entity": "EMAIL",
+        "value": "hrodriguez@example.org",
+        "start": 34,
+        "end": 56
+      },
+      {
+        "entity": "PHONE",
+        "value": "001-676-828-5270x976",
+        "start": 65,
+        "end": 85
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "48512 Smith Branch Apt. 052, Port Kristen, DE 73219",
+        "start": 104,
+        "end": 155
+      }
+    ]
+  },
+  {
+    "text": "The account number for Angela Hernandez is 284-23-0419 and the credit card on file is 639083271028.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Angela Hernandez",
+        "start": 23,
+        "end": 39
+      },
+      {
+        "entity": "SSN",
+        "value": "284-23-0419",
+        "start": 43,
+        "end": 54
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "639083271028",
+        "start": 86,
+        "end": 98
+      }
+    ]
+  },
+  {
+    "text": "The account number for Ashley Diaz is 555-64-3805 and the credit card on file is 589018687238.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Ashley Diaz",
+        "start": 23,
+        "end": 34
+      },
+      {
+        "entity": "SSN",
+        "value": "555-64-3805",
+        "start": 38,
+        "end": 49
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "589018687238",
+        "start": 81,
+        "end": 93
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Lauren Davis, 675939615653, 082 Thomas Island Suite 814, Keithport, CO 74969.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Lauren Davis",
+        "start": 17,
+        "end": 29
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "082 Thomas Island Suite 814, Keithport, CO 74969",
+        "start": 45,
+        "end": 93
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "675939615653",
+        "start": 31,
+        "end": 43
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 401-93-4584 and my credit card is 3576712388885145. Name: Alexander Mclaughlin.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Alexander Mclaughlin",
+        "start": 68,
+        "end": 88
+      },
+      {
+        "entity": "SSN",
+        "value": "401-93-4584",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "3576712388885145",
+        "start": 44,
+        "end": 60
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Erin Lucas via shieldsmichelle@example.net or +1-451-293-4790. SSN on record: 445-46-7842.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Erin Lucas",
+        "start": 13,
+        "end": 23
+      },
+      {
+        "entity": "EMAIL",
+        "value": "shieldsmichelle@example.net",
+        "start": 28,
+        "end": 55
+      },
+      {
+        "entity": "PHONE",
+        "value": "+1-451-293-4790",
+        "start": 59,
+        "end": 74
+      },
+      {
+        "entity": "SSN",
+        "value": "445-46-7842",
+        "start": 91,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Lawrence Peterson: Please send payment to 8344 Wyatt Stream, New Robert, DE 44299. Email confirmation to penahaley@example.org.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Lawrence Peterson",
+        "start": 12,
+        "end": 29
+      },
+      {
+        "entity": "EMAIL",
+        "value": "penahaley@example.org",
+        "start": 117,
+        "end": 138
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "8344 Wyatt Stream, New Robert, DE 44299",
+        "start": 54,
+        "end": 93
+      }
+    ]
+  },
+  {
+    "text": "User Timothy Smith registered with courtneypark@example.org and provided SSN: 226-45-0238.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Timothy Smith",
+        "start": 5,
+        "end": 18
+      },
+      {
+        "entity": "EMAIL",
+        "value": "courtneypark@example.org",
+        "start": 35,
+        "end": 59
+      },
+      {
+        "entity": "SSN",
+        "value": "226-45-0238",
+        "start": 78,
+        "end": 89
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Abigail Mann: Please send payment to 25484 Mathew Avenue Suite 475, South Kari, AZ 70681. Email confirmation to znelson@example.net.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Abigail Mann",
+        "start": 12,
+        "end": 24
+      },
+      {
+        "entity": "EMAIL",
+        "value": "znelson@example.net",
+        "start": 124,
+        "end": 143
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "25484 Mathew Avenue Suite 475, South Kari, AZ 70681",
+        "start": 49,
+        "end": 100
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Rachael Lopez, 4882193106760182, 28530 Matthew Neck Apt. 980, New Jenniferchester, OK 12951.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Rachael Lopez",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "28530 Matthew Neck Apt. 980, New Jenniferchester, OK 12951",
+        "start": 50,
+        "end": 108
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4882193106760182",
+        "start": 32,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "text": "Please contact Kathryn Smith at dianaanderson@example.org or call (493)253-6838x49500. Their address is 83639 Teresa Turnpike, West Matthewburgh, MA 61223.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Kathryn Smith",
+        "start": 15,
+        "end": 28
+      },
+      {
+        "entity": "EMAIL",
+        "value": "dianaanderson@example.org",
+        "start": 32,
+        "end": 57
+      },
+      {
+        "entity": "PHONE",
+        "value": "(493)253-6838x49500",
+        "start": 66,
+        "end": 85
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "83639 Teresa Turnpike, West Matthewburgh, MA 61223",
+        "start": 104,
+        "end": 154
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Tyler Carlson, 3560520530574899, 699 Dylan Mountains, Lake Lisa, DC 91993.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Tyler Carlson",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "699 Dylan Mountains, Lake Lisa, DC 91993",
+        "start": 50,
+        "end": 90
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "3560520530574899",
+        "start": 32,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "text": "User Kari Bell registered with hwashington@example.net and provided SSN: 741-81-3700.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Kari Bell",
+        "start": 5,
+        "end": 14
+      },
+      {
+        "entity": "EMAIL",
+        "value": "hwashington@example.net",
+        "start": 31,
+        "end": 54
+      },
+      {
+        "entity": "SSN",
+        "value": "741-81-3700",
+        "start": 73,
+        "end": 84
+      }
+    ]
+  },
+  {
+    "text": "Employee Nicole Orr lives at 3592 Jordan Parks, Andrewview, IL 25590. Emergency contact: 001-652-817-5970x43318.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Nicole Orr",
+        "start": 9,
+        "end": 19
+      },
+      {
+        "entity": "PHONE",
+        "value": "001-652-817-5970x43318",
+        "start": 89,
+        "end": 111
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "3592 Jordan Parks, Andrewview, IL 25590",
+        "start": 29,
+        "end": 68
+      }
+    ]
+  },
+  {
+    "text": "User Anthony Gonzalez registered with michael63@example.com and provided SSN: 272-56-0231.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Anthony Gonzalez",
+        "start": 5,
+        "end": 21
+      },
+      {
+        "entity": "EMAIL",
+        "value": "michael63@example.com",
+        "start": 38,
+        "end": 59
+      },
+      {
+        "entity": "SSN",
+        "value": "272-56-0231",
+        "start": 78,
+        "end": 89
+      }
+    ]
+  },
+  {
+    "text": "The account number for Nicole Walker is 844-34-6865 and the credit card on file is 4700301779746905.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Nicole Walker",
+        "start": 23,
+        "end": 36
+      },
+      {
+        "entity": "SSN",
+        "value": "844-34-6865",
+        "start": 40,
+        "end": 51
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4700301779746905",
+        "start": 83,
+        "end": 99
+      }
+    ]
+  },
+  {
+    "text": "The account number for Jennifer Johnson is 022-07-9486 and the credit card on file is 3511066168000849.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jennifer Johnson",
+        "start": 23,
+        "end": 39
+      },
+      {
+        "entity": "SSN",
+        "value": "022-07-9486",
+        "start": 43,
+        "end": 54
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "3511066168000849",
+        "start": 86,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "Contact Robin Higgins ((951)475-5859x275) for support. Address: 487 Amy Summit Suite 106, Lake Stephanieland, DC 19979.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Robin Higgins",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "entity": "PHONE",
+        "value": "(951)475-5859x275",
+        "start": 23,
+        "end": 40
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "487 Amy Summit Suite 106, Lake Stephanieland, DC 19979",
+        "start": 64,
+        "end": 118
+      }
+    ]
+  },
+  {
+    "text": "User Kimberly Allen registered with perryjonathan@example.com and provided SSN: 851-48-6790.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Kimberly Allen",
+        "start": 5,
+        "end": 19
+      },
+      {
+        "entity": "EMAIL",
+        "value": "perryjonathan@example.com",
+        "start": 36,
+        "end": 61
+      },
+      {
+        "entity": "SSN",
+        "value": "851-48-6790",
+        "start": 80,
+        "end": 91
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Cynthia Petty, 4090242604971276, 2815 Scott Spurs Suite 194, South Amy, CO 56443.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Cynthia Petty",
+        "start": 17,
+        "end": 30
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "2815 Scott Spurs Suite 194, South Amy, CO 56443",
+        "start": 50,
+        "end": 97
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4090242604971276",
+        "start": 32,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "text": "User Christina Moreno registered with jenniferfriedman@example.com and provided SSN: 402-73-5270.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Christina Moreno",
+        "start": 5,
+        "end": 21
+      },
+      {
+        "entity": "EMAIL",
+        "value": "jenniferfriedman@example.com",
+        "start": 38,
+        "end": 66
+      },
+      {
+        "entity": "SSN",
+        "value": "402-73-5270",
+        "start": 85,
+        "end": 96
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 390-77-6911 and my credit card is 30484486206931. Name: Christopher Gillespie.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Christopher Gillespie",
+        "start": 66,
+        "end": 87
+      },
+      {
+        "entity": "SSN",
+        "value": "390-77-6911",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "30484486206931",
+        "start": 44,
+        "end": 58
+      }
+    ]
+  },
+  {
+    "text": "Billing details: Jennifer Norris, 30227952288911, 387 James Points, Jacobville, NM 72985.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jennifer Norris",
+        "start": 17,
+        "end": 32
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "387 James Points, Jacobville, NM 72985",
+        "start": 50,
+        "end": 88
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "30227952288911",
+        "start": 34,
+        "end": 48
+      }
+    ]
+  },
+  {
+    "text": "Contact Kimberly Williams (355.875.8312) for support. Address: PSC 1130, Box 6858, APO AE 25544.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Kimberly Williams",
+        "start": 8,
+        "end": 25
+      },
+      {
+        "entity": "PHONE",
+        "value": "355.875.8312",
+        "start": 27,
+        "end": 39
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "PSC 1130, Box 6858, APO AE 25544",
+        "start": 63,
+        "end": 95
+      }
+    ]
+  },
+  {
+    "text": "The account number for Samantha Joseph is 224-75-2117 and the credit card on file is 344278311002007.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Samantha Joseph",
+        "start": 23,
+        "end": 38
+      },
+      {
+        "entity": "SSN",
+        "value": "224-75-2117",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "344278311002007",
+        "start": 85,
+        "end": 100
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Dr. Mark Montes via mcfarlandcory@example.net or 787.243.4584x820. SSN on record: 104-93-2910.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Dr. Mark Montes",
+        "start": 13,
+        "end": 28
+      },
+      {
+        "entity": "EMAIL",
+        "value": "mcfarlandcory@example.net",
+        "start": 33,
+        "end": 58
+      },
+      {
+        "entity": "PHONE",
+        "value": "787.243.4584x820",
+        "start": 62,
+        "end": 78
+      },
+      {
+        "entity": "SSN",
+        "value": "104-93-2910",
+        "start": 95,
+        "end": 106
+      }
+    ]
+  },
+  {
+    "text": "Contact Logan Davis ((831)303-1824) for support. Address: 8221 Tami Camp Suite 012, New Jennifer, AL 03658.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Logan Davis",
+        "start": 8,
+        "end": 19
+      },
+      {
+        "entity": "PHONE",
+        "value": "(831)303-1824",
+        "start": 21,
+        "end": 34
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "8221 Tami Camp Suite 012, New Jennifer, AL 03658",
+        "start": 58,
+        "end": 106
+      }
+    ]
+  },
+  {
+    "text": "Employee Robert Harrison lives at 26207 Carroll Gateway, Port Andrewburgh, HI 41269. Emergency contact: 920.973.4032x674.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Robert Harrison",
+        "start": 9,
+        "end": 24
+      },
+      {
+        "entity": "PHONE",
+        "value": "920.973.4032x674",
+        "start": 104,
+        "end": 120
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "26207 Carroll Gateway, Port Andrewburgh, HI 41269",
+        "start": 34,
+        "end": 83
+      }
+    ]
+  },
+  {
+    "text": "The account number for James Pacheco is 684-70-7740 and the credit card on file is 4907489180556.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "James Pacheco",
+        "start": 23,
+        "end": 36
+      },
+      {
+        "entity": "SSN",
+        "value": "684-70-7740",
+        "start": 40,
+        "end": 51
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4907489180556",
+        "start": 83,
+        "end": 96
+      }
+    ]
+  },
+  {
+    "text": "Employee Samantha Meyer lives at 392 Leonard Skyway, North Sara, FL 92532. Emergency contact: 8017209438.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Samantha Meyer",
+        "start": 9,
+        "end": 23
+      },
+      {
+        "entity": "PHONE",
+        "value": "8017209438",
+        "start": 94,
+        "end": 104
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "392 Leonard Skyway, North Sara, FL 92532",
+        "start": 33,
+        "end": 73
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to makayla86@example.com and CC Stephen Thompson.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Stephen Thompson",
+        "start": 54,
+        "end": 70
+      },
+      {
+        "entity": "EMAIL",
+        "value": "makayla86@example.com",
+        "start": 25,
+        "end": 46
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Casey Gordon via rogerwilson@example.com or 936-517-1055. SSN on record: 745-50-0958.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Casey Gordon",
+        "start": 13,
+        "end": 25
+      },
+      {
+        "entity": "EMAIL",
+        "value": "rogerwilson@example.com",
+        "start": 30,
+        "end": 53
+      },
+      {
+        "entity": "PHONE",
+        "value": "936-517-1055",
+        "start": 57,
+        "end": 69
+      },
+      {
+        "entity": "SSN",
+        "value": "745-50-0958",
+        "start": 86,
+        "end": 97
+      }
+    ]
+  },
+  {
+    "text": "Please contact Robert Hicks at lisa68@example.org or call +1-311-280-0835x270. Their address is 56704 Jamie Streets Apt. 874, North Amy, VA 42928.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Robert Hicks",
+        "start": 15,
+        "end": 27
+      },
+      {
+        "entity": "EMAIL",
+        "value": "lisa68@example.org",
+        "start": 31,
+        "end": 49
+      },
+      {
+        "entity": "PHONE",
+        "value": "+1-311-280-0835x270",
+        "start": 58,
+        "end": 77
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "56704 Jamie Streets Apt. 874, North Amy, VA 42928",
+        "start": 96,
+        "end": 145
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Charles Rodriguez via roberthowell@example.net or 001-877-563-5104x2506. SSN on record: 247-26-0651.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Charles Rodriguez",
+        "start": 13,
+        "end": 30
+      },
+      {
+        "entity": "EMAIL",
+        "value": "roberthowell@example.net",
+        "start": 35,
+        "end": 59
+      },
+      {
+        "entity": "PHONE",
+        "value": "001-877-563-5104x2506",
+        "start": 63,
+        "end": 84
+      },
+      {
+        "entity": "SSN",
+        "value": "247-26-0651",
+        "start": 101,
+        "end": 112
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Wendy Walker: Please send payment to 773 Pratt Vista, Johnland, KY 97868. Email confirmation to anthony73@example.net.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Wendy Walker",
+        "start": 12,
+        "end": 24
+      },
+      {
+        "entity": "EMAIL",
+        "value": "anthony73@example.net",
+        "start": 108,
+        "end": 129
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "773 Pratt Vista, Johnland, KY 97868",
+        "start": 49,
+        "end": 84
+      }
+    ]
+  },
+  {
+    "text": "User Anthony Rogers registered with robynphillips@example.org and provided SSN: 505-28-3664.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Anthony Rogers",
+        "start": 5,
+        "end": 19
+      },
+      {
+        "entity": "EMAIL",
+        "value": "robynphillips@example.org",
+        "start": 36,
+        "end": 61
+      },
+      {
+        "entity": "SSN",
+        "value": "505-28-3664",
+        "start": 80,
+        "end": 91
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Kim Richardson: Please send payment to 53184 Santiago Plains, West Richardview, FM 40739. Email confirmation to tatefelicia@example.net.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Kim Richardson",
+        "start": 12,
+        "end": 26
+      },
+      {
+        "entity": "EMAIL",
+        "value": "tatefelicia@example.net",
+        "start": 124,
+        "end": 147
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "53184 Santiago Plains, West Richardview, FM 40739",
+        "start": 51,
+        "end": 100
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to ymorales@example.com and CC Christopher Aguilar.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Christopher Aguilar",
+        "start": 53,
+        "end": 72
+      },
+      {
+        "entity": "EMAIL",
+        "value": "ymorales@example.com",
+        "start": 25,
+        "end": 45
+      }
+    ]
+  },
+  {
+    "text": "Employee Gary Hanna lives at 0016 Chen Road, East Kristimouth, PR 78607. Emergency contact: 634-395-9580x4933.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Gary Hanna",
+        "start": 9,
+        "end": 19
+      },
+      {
+        "entity": "PHONE",
+        "value": "634-395-9580x4933",
+        "start": 92,
+        "end": 109
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "0016 Chen Road, East Kristimouth, PR 78607",
+        "start": 29,
+        "end": 71
+      }
+    ]
+  },
+  {
+    "text": "Employee Chase Boyd lives at 378 Brown Dale Suite 354, West James, NC 45448. Emergency contact: 785.815.9761.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Chase Boyd",
+        "start": 9,
+        "end": 19
+      },
+      {
+        "entity": "PHONE",
+        "value": "785.815.9761",
+        "start": 96,
+        "end": 108
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "378 Brown Dale Suite 354, West James, NC 45448",
+        "start": 29,
+        "end": 75
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Jill Graham via larrygarcia@example.org or 530.551.3891x05784. SSN on record: 566-08-5370.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jill Graham",
+        "start": 13,
+        "end": 24
+      },
+      {
+        "entity": "EMAIL",
+        "value": "larrygarcia@example.org",
+        "start": 29,
+        "end": 52
+      },
+      {
+        "entity": "PHONE",
+        "value": "530.551.3891x05784",
+        "start": 56,
+        "end": 74
+      },
+      {
+        "entity": "SSN",
+        "value": "566-08-5370",
+        "start": 91,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to henryshelley@example.org and CC Julian Estrada.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Julian Estrada",
+        "start": 57,
+        "end": 71
+      },
+      {
+        "entity": "EMAIL",
+        "value": "henryshelley@example.org",
+        "start": 25,
+        "end": 49
+      }
+    ]
+  },
+  {
+    "text": "The account number for Eugene Blake is 545-54-4320 and the credit card on file is 4364402221757610912.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Eugene Blake",
+        "start": 23,
+        "end": 35
+      },
+      {
+        "entity": "SSN",
+        "value": "545-54-4320",
+        "start": 39,
+        "end": 50
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4364402221757610912",
+        "start": 82,
+        "end": 101
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 178-05-3207 and my credit card is 4679446843876332. Name: Jose Campbell.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jose Campbell",
+        "start": 68,
+        "end": 81
+      },
+      {
+        "entity": "SSN",
+        "value": "178-05-3207",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "4679446843876332",
+        "start": 44,
+        "end": 60
+      }
+    ]
+  },
+  {
+    "text": "Contact Anthony Johnston (001-465-714-5559x288) for support. Address: 010 Larry Heights Apt. 452, Hollandberg, CT 15105.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Anthony Johnston",
+        "start": 8,
+        "end": 24
+      },
+      {
+        "entity": "PHONE",
+        "value": "001-465-714-5559x288",
+        "start": 26,
+        "end": 46
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "010 Larry Heights Apt. 452, Hollandberg, CT 15105",
+        "start": 70,
+        "end": 119
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 142-17-6286 and my credit card is 676161749566. Name: Jennifer Ho.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jennifer Ho",
+        "start": 64,
+        "end": 75
+      },
+      {
+        "entity": "SSN",
+        "value": "142-17-6286",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "676161749566",
+        "start": 44,
+        "end": 56
+      }
+    ]
+  },
+  {
+    "text": "Invoice for Ashley Parker: Please send payment to 94660 Alicia Wells Suite 680, North Jonathan, NV 03196. Email confirmation to moralesbrittany@example.org.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Ashley Parker",
+        "start": 12,
+        "end": 25
+      },
+      {
+        "entity": "EMAIL",
+        "value": "moralesbrittany@example.org",
+        "start": 128,
+        "end": 155
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "94660 Alicia Wells Suite 680, North Jonathan, NV 03196",
+        "start": 50,
+        "end": 104
+      }
+    ]
+  },
+  {
+    "text": "Contact Randy Swanson ((241)961-1690x09419) for support. Address: 811 Shawn Cove Suite 867, Lake Lynn, ID 50297.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Randy Swanson",
+        "start": 8,
+        "end": 21
+      },
+      {
+        "entity": "PHONE",
+        "value": "(241)961-1690x09419",
+        "start": 23,
+        "end": 42
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "811 Shawn Cove Suite 867, Lake Lynn, ID 50297",
+        "start": 66,
+        "end": 111
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Jenna Miller via nicholas13@example.net or 001-873-819-0323. SSN on record: 803-04-6453.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Jenna Miller",
+        "start": 13,
+        "end": 25
+      },
+      {
+        "entity": "EMAIL",
+        "value": "nicholas13@example.net",
+        "start": 30,
+        "end": 52
+      },
+      {
+        "entity": "PHONE",
+        "value": "001-873-819-0323",
+        "start": 56,
+        "end": 72
+      },
+      {
+        "entity": "SSN",
+        "value": "803-04-6453",
+        "start": 89,
+        "end": 100
+      }
+    ]
+  },
+  {
+    "text": "Contact Brian Morris (5769220411) for support. Address: 85218 Chan Hollow, Lake John, IN 56815.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Brian Morris",
+        "start": 8,
+        "end": 20
+      },
+      {
+        "entity": "PHONE",
+        "value": "5769220411",
+        "start": 22,
+        "end": 32
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "85218 Chan Hollow, Lake John, IN 56815",
+        "start": 56,
+        "end": 94
+      }
+    ]
+  },
+  {
+    "text": "My SSN is 034-28-8667 and my credit card is 3583676179407354. Name: Lisa Boyd.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Lisa Boyd",
+        "start": 68,
+        "end": 77
+      },
+      {
+        "entity": "SSN",
+        "value": "034-28-8667",
+        "start": 10,
+        "end": 21
+      },
+      {
+        "entity": "CREDIT_CARD",
+        "value": "3583676179407354",
+        "start": 44,
+        "end": 60
+      }
+    ]
+  },
+  {
+    "text": "Contact Andrea Blankenship (814.896.5450x9505) for support. Address: 96142 Gomez Springs, Jessicaside, MI 56131.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Andrea Blankenship",
+        "start": 8,
+        "end": 26
+      },
+      {
+        "entity": "PHONE",
+        "value": "814.896.5450x9505",
+        "start": 28,
+        "end": 45
+      },
+      {
+        "entity": "ADDRESS",
+        "value": "96142 Gomez Springs, Jessicaside, MI 56131",
+        "start": 69,
+        "end": 111
+      }
+    ]
+  },
+  {
+    "text": "Forward the documents to elizabethnelson@example.com and CC Anna Hill.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Anna Hill",
+        "start": 60,
+        "end": 69
+      },
+      {
+        "entity": "EMAIL",
+        "value": "elizabethnelson@example.com",
+        "start": 25,
+        "end": 52
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Sarah Wilcox via charlotte55@example.com or 838.489.2579x9680. SSN on record: 080-82-3911.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Sarah Wilcox",
+        "start": 13,
+        "end": 25
+      },
+      {
+        "entity": "EMAIL",
+        "value": "charlotte55@example.com",
+        "start": 30,
+        "end": 53
+      },
+      {
+        "entity": "PHONE",
+        "value": "838.489.2579x9680",
+        "start": 57,
+        "end": 74
+      },
+      {
+        "entity": "SSN",
+        "value": "080-82-3911",
+        "start": 91,
+        "end": 102
+      }
+    ]
+  },
+  {
+    "text": "Reach out to Robin Douglas via jennifer62@example.net or 835-554-9061x1919. SSN on record: 267-20-2868.",
+    "entities": [
+      {
+        "entity": "NAME",
+        "value": "Robin Douglas",
+        "start": 13,
+        "end": 26
+      },
+      {
+        "entity": "EMAIL",
+        "value": "jennifer62@example.net",
+        "start": 31,
+        "end": 53
+      },
+      {
+        "entity": "PHONE",
+        "value": "835-554-9061x1919",
+        "start": 57,
+        "end": 74
+      },
+      {
+        "entity": "SSN",
+        "value": "267-20-2868",
+        "start": 91,
+        "end": 102
+      }
+    ]
+  }
+]

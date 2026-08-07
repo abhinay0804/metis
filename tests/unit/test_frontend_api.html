@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontend API Test</title>
+</head>
+<body>
+    <h1>Frontend API Test</h1>
+    <button onclick="testAPI()">Test API</button>
+    <div id="result"></div>
+
+    <script>
+        async function testAPI() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testing...';
+            
+            try {
+                // Test health endpoint
+                const healthResponse = await fetch('http://localhost:8001/health');
+                const healthData = await healthResponse.json();
+                resultDiv.innerHTML += `<p>Health: ${JSON.stringify(healthData)}</p>`;
+                
+                // Test file processing
+                const formData = new FormData();
+                formData.append('file', new Blob(['test content with email: test@example.com'], { type: 'text/plain' }), 'test.txt');
+                formData.append('reversible', 'true');
+                
+                const processResponse = await fetch('http://localhost:8001/process', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (processResponse.ok) {
+                    const processData = await processResponse.json();
+                    resultDiv.innerHTML += `<p>Process: Success - ${JSON.stringify(processData)}</p>`;
+                } else {
+                    resultDiv.innerHTML += `<p>Process: Error - ${processResponse.status} ${processResponse.statusText}</p>`;
+                }
+                
+            } catch (error) {
+                resultDiv.innerHTML += `<p>Error: ${error.message}</p>`;
+            }
+        }
+    </script>
+</body>
+</html>

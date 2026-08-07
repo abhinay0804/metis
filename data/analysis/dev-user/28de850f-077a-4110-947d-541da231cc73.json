@@ -1,0 +1,14 @@
+{
+  "file_name": "File_001.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T19:22:26.180170+00:00",
+  "result": {
+    "description": "Employee information display showing personnel data, organizational structure, and staff details.",
+    "keyFindings": [
+      "Contains employee information requiring HR data governance",
+      "May include personnel data requiring privacy protection",
+      "Image file requiring visual content analysis and OCR processing"
+    ],
+    "qualityAnalysis": true
+  }
+}

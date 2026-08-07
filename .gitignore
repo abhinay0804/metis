@@ -1,0 +1,64 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/lib/
+/lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.npm
+frontend/coverage
+
+# Logs and databases
+*.log
+*.sqlite3
+metis.db
+metis_dev.db
+.coverage
+
+# Project specific directories
+uploads/
+ml/models/
+ml/pii-roberta-base-model-output/
+data/*.zip
+runs/
+benchmarks/*.json
+tests/.pytest_cache/
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

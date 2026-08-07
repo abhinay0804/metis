@@ -1,0 +1,29 @@
+{
+  "file_name": "File_001.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-02T16:58:55.651441+00:00",
+  "result": {
+    "dataQuality": 70,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Apply OCR-based redaction for text in images"
+    ],
+    "riskLevel": "Low",
+    "description": "Access Card Reader",
+    "keyFindings": [
+      "Digital access control system using ID/employee cards.",
+      "Automates entry tracking by time-stamping when the card is swiped.",
+      "Dependent on card validity and system integrity (e.g., cards can be lost or borrowed)."
+    ],
+    "contentCategories": [],
+    "structureInfo": {
+      "has_text": true,
+      "has_ocr": true,
+      "good_resolution": true,
+      "word_count": 20
+    }
+  }
+}

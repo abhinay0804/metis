@@ -1,0 +1,22 @@
+{
+  "file_name": "File_004.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-02T09:23:57.917543+00:00",
+  "result": {
+    "dataQuality": 75,
+    "sensitiveFields": 0,
+    "compliance": [
+      "General"
+    ],
+    "recommendations": [
+      "Use OCR with redaction for images containing text"
+    ],
+    "riskLevel": "Low",
+    "description": "Access Card Reader — A device used with ID/badge cards to control door entry; typically mounted near a doorway and operated by swiping/tapping the card.",
+    "keyFindings": [
+      "Digital access control using ID/employee cards",
+      "Automates entry tracking via time-stamping when card is used",
+      "Dependent on card validity and system integrity (lost/borrowed cards are a risk)"
+    ]
+  }
+}

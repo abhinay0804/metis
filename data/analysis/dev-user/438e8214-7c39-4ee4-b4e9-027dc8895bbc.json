@@ -1,0 +1,15 @@
+{
+  "file_name": "File_004.png",
+  "file_type": "image/png",
+  "created_at": "2025-10-04T19:24:22.518070+00:00",
+  "result": {
+    "description": "Access control system displaying card reader interface for employee ID authentication and entry tracking.",
+    "keyFindings": [
+      "Contains access control system documentation requiring security review",
+      "May include authentication mechanisms or security procedures requiring protection",
+      "Contains 1 important information segments",
+      "Image file requiring visual content analysis and OCR processing"
+    ],
+    "qualityAnalysis": true
+  }
+}
