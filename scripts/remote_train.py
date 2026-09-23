@@ -1,3 +1,4 @@
+import os
 import paramiko
 from scp import SCPClient
 import sys
@@ -25,7 +26,7 @@ def main():
     host = "whilst-skiing-tones-span.trycloudflare.com"
     port = 22
     user = "root"
-    password = "metis123"
+    password = os.environ.get("REMOTE_PASSWORD", "changeme")
     
     # Ensure cloudflared exists and is executable
     if not os.path.exists("./cloudflared"):

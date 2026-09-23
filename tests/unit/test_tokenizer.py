@@ -5,7 +5,7 @@ model_path = "/app/ml/models/pii-roberta"
 try:
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     print("Tokenizer loaded!")
-    text = "NAMA ABHINAY 23BPS1080 RYALI LAKSHMAN 23BPS1026"
+    text = "JOHN DOE EMP001234 JANE SMITH EMP005678"
     tokens = tokenizer(text)
     print("Tokens:", tokens)
     print("Decoded:", tokenizer.decode(tokens['input_ids']))

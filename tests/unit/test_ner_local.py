@@ -4,7 +4,7 @@ import os
 sys.path.insert(0, os.path.abspath('.'))
 from server.detectors.ensemble_detector import EnsembleDetector
 
-text = "NAMA ABHINAY 23BPS1080 RYALI LAKSHMAN 23BPS1026"
+text = "JOHN DOE EMP001234 JANE SMITH EMP005678"
 
 try:
     detector = EnsembleDetector()
