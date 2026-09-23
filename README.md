@@ -1,3 +1,4 @@
+![CI](https://github.com/abhinay0804/metis/actions/workflows/ci.yml/badge.svg)
 # 🛡️ Metis: Intelligent Zero-Trust PII Redaction Engine
 
 <p align="center">
